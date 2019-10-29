@@ -27,7 +27,6 @@ body {
   color: #512200;
   font-size: 1.5rem;
   margin: 0;
-  font-weight: bold;
 }
 
 a {
@@ -35,20 +34,26 @@ a {
 }
 
 p {
-  display: inline-block;
+  display: block;
 }
 
 dl {
-  display: inline-block;
   font-size: .875rem;
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
-  text-decoration: none;
-  padding: 1rem;
+  padding: 1rem 0;
+}
+
+dt {
+  display: block;
+  float: left;
 }
 
 dd {
   font-style: italic;
+  text-align: center;
+  display: block;
+
 }
 
 .btn {
@@ -70,4 +75,5 @@ div {
 
 .link-card:hover {
   background-color: #cabdb2;
+  border-color: #9a816d;
 }
